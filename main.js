@@ -10,6 +10,7 @@ outputScreen.value=eval(outputScreen.value);
 catch(err){
     alert("invalid")
 }
+}
     function ClearDisplay(){
         outputScreen.value = "";
     }
@@ -17,4 +18,3 @@ catch(err){
         outputScreen.value = 
         outputScreen.value.slice(0,-1)
     }
-}
